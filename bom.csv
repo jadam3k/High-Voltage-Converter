@@ -1,21 +1,23 @@
-Reference,Qty,Value,Role / Function
-C1,C2,2,10uF 400V,Input/output smoothing capacitors, stabilize voltage
-C3,1,.01,Small capacitor, used for filtering or timing
-C4,1,470p,Small capacitor, used for filtering or decoupling
-C5,1,0.1 500V,High-voltage capacitor, for filtering/stabilizing output
-C6,1,220uF,General-purpose capacitor, smoothing
-CN1,1,+12V/GND/GND/HV,Power input/output connector
-D1,1,ES1G-13-F,Rectifier diode, directs energy from inductor to output
-D2,1,1N4148FL,Signal diode, fast switching/protection
-D3,1,D1206 Diode GP,General-purpose diode, for protection or rectifying
-IC1,1,MC34063 SMD,Main switching regulator IC, controls boost/buck-boost conversion
-L1,1,180uH,Inductor, stores and releases energy for voltage conversion
-Q1,1,STN3N40K3,MOSFET,Fast-switching transistor for energy transfer
-Q2,1,MMBT3906,BJT transistor, used for control/driver circuitry
-R1,R2,2,0.5Ω,Current sense / low-value resistor
-R3,1,1KΩ,Resistor, part of voltage divider or biasing
-R4,1,470KΩ,Feedback resistor, sets output voltage
-R5,1,47KΩ,Feedback resistor, sets output voltage
-R6,1,1MΩ,Pull-up/pull-down resistor or timing
-R7,1,10KΩ,General-purpose resistor, biasing or pull-up
-RR1,1,50KΩ,Variable resistor / potentiometer, adjusts feedback voltage
+Reference,Qty,Value,DNP,Exclude from BOM,Exclude from Board,Footprint,Datasheet
+C1,2,10uF 400V,,,,,~
+C2,2,10uF 400V,,,,,~
+C3,1,.01,,,,,~
+C4,1,470p,,,,,~
+C5,1,0.1 500V,,,,,~
+C6,1,220uF,,,,,~
+CN1,1,+12V/GND/GND/HV,,,,, 
+D1,1,ES1G-13-F,,,,, 
+D2,1,1N4148FL,,,,, 
+D3,1,D1206 Diode GP,,,,, 
+IC1,1,MC34063 SMD,,,,, 
+L1,1,180uH,,,,,~
+Q1,1,STN3N40K3,,,,, 
+Q2,1,MMBT3906,,,,, 
+R1,1,0.5,,,,,~
+R2,1,0.5,,,,,~
+R3,1,1K,,,,,~
+R4,1,470K,,,,,~
+R5,1,47K,,,,,~
+R6,1,1M,,,,,~
+R7,1,10K,,,,,~
+RR1,1,50kΩ,,,,,~
